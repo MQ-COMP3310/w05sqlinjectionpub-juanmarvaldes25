@@ -21,7 +21,7 @@ public class App {
         // must set before the Logger
         // loads logging.properties from the classpath
         try {// resources\logging.properties
-            LogManager.getLogManager().readConfiguration(new FileInputStream("/Users/juanv/Documents/comp3310/week5/w05sqlinjectionpub-juanmarvaldes25/resources/logging.properties"));
+            LogManager.getLogManager().readConfiguration(new FileInputStream("/Users/juanv/Documents/comp3310/week5/w05sqlinjectionpub-juanmarvaldes25/resources/data.txt"));
         } catch (SecurityException | IOException e1) {
             e1.printStackTrace();
         }
